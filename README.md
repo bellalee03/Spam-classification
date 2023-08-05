@@ -1,4 +1,4 @@
-# Spam-classification
+# Spam-Ham classification
 - In this project for DATA 100 at UC Berkeley, I have designed and developed a binary logistic regression classifier capable of accurately distinguishing spam (junk, commercial, or bulk) emails from ham (non-spam) emails.
 
 - The project utilizes feature engineering techniques on text data extracted from emails. Scikit-learn libraries are employed for data processing and model fitting, while cross-validation is implemented to minimize overfitting. To assess the classifier's performance, precision-recall curves are generated and analyzed.
