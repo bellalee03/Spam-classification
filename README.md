@@ -1,9 +1,25 @@
-# Spam-Ham classification
-- In this project for DATA 100 at UC Berkeley, I have designed and developed a binary logistic regression classifier capable of accurately distinguishing spam (junk, commercial, or bulk) emails from ham (non-spam) emails.
+# Spam-Ham Classification
 
-- The project utilizes feature engineering techniques on text data extracted from emails. Scikit-learn libraries are employed for data processing and model fitting, while cross-validation is implemented to minimize overfitting. To assess the classifier's performance, precision-recall curves are generated and analyzed.
-- Throughout this project, I've applied techniques including data engineering, regression, and exploratory data analysis.
+This repository contains a binary logistic regression classifier designed to discern spam emails from non-spam (ham) emails. It was developed as part of the DATA 100 course at UC Berkeley, showcasing the practical application of machine learning techniques.
 
-- In addition to Python, which is used within a Jupyter notebook, I have leveraged Seaborn and Matplotlib for data visualizations, and Scikit-learn libraries for various machine-learning tasks throughout this project.
+## Key Objectives
+- Implement a binary logistic regression model for spam detection.
+- Employ feature engineering to extract meaningful attributes from email text data.
+- Utilize Scikit-learn for model building, training, and validation.
+- Apply cross-validation to ensure model robustness and minimize overfitting.
+- Generate precision-recall curves to evaluate the classifier's performance.
 
-Overall, this endeavor demonstrates the application of sophisticated techniques to effectively tackle the challenging problem of spam classification in emails.
+## Technologies Used
+- **Python**: The primary programming language used for analysis within Jupyter notebooks.
+- **Scikit-learn**: A machine learning library for Python, used for model fitting and evaluation.
+- **Seaborn & Matplotlib**: Visualization libraries employed for creating precision-recall curves and other data visualizations.
+
+## Files in Repository
+- `projB1.ipynb`: Initial exploration and model development notebook.
+- `projB2.ipynb`: Advanced modeling and evaluation notebook.
+
+## Conclusion
+This spam classification project illustrates the use of advanced data science techniques to address the real-world issue of email filtering. The successful deployment of this classifier has the potential to significantly improve email management and security.
+
+For a deeper dive into the code and methodology, please refer to the Jupyter notebooks in this repository.
+
